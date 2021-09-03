@@ -64,7 +64,7 @@
         text-decoration: underline;
         letter-spacing: 2px;
         font-weight: 500;
-        font-size: 2rem;
+        font-size: calc(1.5rem + 1vw);
       }
 
       &__parrafo {
