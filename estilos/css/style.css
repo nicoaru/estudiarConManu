@@ -1,0 +1,6 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  width: calc(100vw - (100vw - 100%)); }
