@@ -14,10 +14,13 @@
   .tips__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     color: #fbde83;
     text-align: center;
-    text-decoration: underline double; }
+    text-decoration: underline double;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: calc(2rem + 3vw); }
   .tips__parrafo {
     max-width: 70vw;
     height: auto;
@@ -41,13 +44,79 @@
       flex-direction: column; }
       .tips__videos__card__titulo {
         width: 100%;
-        height: auto;
-        padding-bottom: 10px;
+        height: 50px;
         color: purple;
         text-align: center;
-        text-decoration: underline; }
+        text-decoration: underline;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 1rem; }
       .tips__videos__card__link {
         width: 100%;
         min-height: 300px;
         margin: 0 auto;
         padding-bottom: 10px; }
+
+.entrevistas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+  .entrevistas__titulo {
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    color: #fbde83;
+    text-align: center;
+    text-decoration: underline double;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: calc(2rem + 3vw); }
+  .entrevistas__parrafo {
+    max-width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: justify;
+    letter-spacing: 2px; }
+    .entrevistas__parrafo__redessociales {
+      font-weight: bold; }
+  .entrevistas__videos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto; }
+    .entrevistas__videos__card {
+      max-width: 499px;
+      height: auto;
+      margin: 0 auto;
+      padding: 25px 10px;
+      display: flex;
+      flex-direction: column; }
+      .entrevistas__videos__card__titulo {
+        width: 70%;
+        padding-bottom: 10px;
+        color: purple;
+        text-align: start;
+        text-decoration: underline;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 2rem; }
+      .entrevistas__videos__card__parrafo {
+        max-width: 70vw;
+        height: 220px;
+        margin: 0 auto;
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 30px; }
+      .entrevistas__videos__card__link {
+        width: 100%;
+        min-height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px; }
+
+@media only screen and (max-width: 699px) {
+  .entrevistas__videos__card__parrafo {
+    max-width: 90vw; } }

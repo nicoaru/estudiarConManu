@@ -11,12 +11,15 @@
     width: auto;
     height: auto;
 
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 
     color: $colorAmarillo;
 
     text-align: center;
     text-decoration: underline double;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: calc(2rem + 3vw);
   }
 
   &__parrafo {
@@ -52,14 +55,15 @@
 
       &__titulo {
         width: 100%;
-        height: auto;
-
-        padding-bottom: 10px;
+        height: 50px;
 
         color: purple;
 
         text-align: center;
         text-decoration: underline;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 1rem;
       }
 
       &__link {
