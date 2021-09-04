@@ -9,28 +9,40 @@
     width: auto;
     height: auto;
 
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 
-    color: $colorAmarillo;
+    color: black;
 
     text-align: center;
-    text-decoration: underline double;
     letter-spacing: 3px;
     font-weight: 900;
     font-size: calc(2rem + 3vw);
   }
   &__parrafo {
-    max-width: 70vw;
+    max-width: 900px;
     height: auto;
 
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding: 0 5px 20px 5px;
 
     text-align: justify;
     letter-spacing: 2px;
 
+    font-size: x-large;
+
     &__redessociales {
       font-weight: bold;
+      text-decoration: none;
+      background: linear-gradient(
+        to bottom,
+        #000,
+        #000 60%,
+        rgb(148, 25, 25) 60%,
+        rgb(5, 5, 5) 100%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
     }
   }
 
@@ -45,7 +57,7 @@
     margin: 0 auto;
 
     &__card {
-      max-width: 499px;
+      max-width: 600px;
       height: auto;
 
       margin: 0 auto;
@@ -76,11 +88,13 @@
         text-align: justify;
         letter-spacing: 1px;
         line-height: 30px;
+
+        font-size: large;
       }
 
       &__link {
         width: 100%;
-        min-height: 300px;
+        min-height: 350px;
 
         margin: 0 auto;
         padding-bottom: 10px;

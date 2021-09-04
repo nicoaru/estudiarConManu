@@ -1,0 +1,129 @@
+.marcas {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+  &__titulo {
+    width: auto;
+    height: auto;
+
+    padding-bottom: 100px;
+
+    color: black;
+
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: calc(2rem + 3vw);
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+
+    gap: 150px;
+
+    .figure {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 375px;
+      height: 667px;
+
+      border-radius: 10px;
+
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+      overflow: hidden;
+
+      cursor: help;
+
+      &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+        img {
+          transform: scale(1.25);
+        }
+        figcaption {
+          bottom: 0;
+        }
+      }
+
+      &__h1 {
+        position: absolute;
+
+        top: 50px;
+        left: 15px;
+
+        color: white;
+
+        font-size: 60px;
+        font-weight: 300;
+      }
+
+      &__img {
+        height: 100%;
+        transition: 0.25s;
+      }
+
+      &__text {
+        position: absolute;
+        bottom: -38%;
+        width: 100%;
+        padding: 30px;
+
+        background-color: rgba(black, 0.85);
+        box-shadow: 0 0 20px rgba(black, 0.4);
+
+        color: white;
+
+        line-height: 1;
+
+        transition: 0.25s;
+
+        &__h3 {
+          margin: 0 0 20px;
+        }
+
+        &__parrafo {
+          font-size: 14px;
+          line-height: 1.75;
+        }
+
+        &__button {
+          position: relative;
+          width: 80%;
+
+          margin: 10px 0 0;
+          padding: 10px 30px;
+
+          background-color: #2ecc71;
+
+          border: none;
+          border-radius: 5px;
+
+          color: white;
+          font-size: 14px;
+
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

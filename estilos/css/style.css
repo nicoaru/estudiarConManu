@@ -14,20 +14,20 @@
   .tips__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 25px;
-    color: #fbde83;
+    padding-bottom: 100px;
+    color: black;
     text-align: center;
-    text-decoration: underline double;
     letter-spacing: 3px;
     font-weight: 900;
     font-size: calc(2rem + 3vw); }
   .tips__parrafo {
-    max-width: 70vw;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding: 0 5px 20px 5px;
     text-align: justify;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-size: x-large; }
   .tips__videos {
     width: 100%;
     height: auto;
@@ -36,7 +36,7 @@
     flex-wrap: wrap;
     margin: 0 auto; }
     .tips__videos__card {
-      max-width: 499px;
+      max-width: 650px;
       height: auto;
       margin: 0 auto;
       padding: 25px 10px;
@@ -52,7 +52,7 @@
         font-size: calc(1rem + 1vw); }
       .tips__videos__card__link {
         width: 100%;
-        min-height: 300px;
+        min-height: 350px;
         margin: 0 auto;
         padding-bottom: 10px; }
 
@@ -64,22 +64,27 @@
   .entrevistas__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 20px;
-    color: #fbde83;
+    padding-bottom: 100px;
+    color: black;
     text-align: center;
-    text-decoration: underline double;
     letter-spacing: 3px;
     font-weight: 900;
     font-size: calc(2rem + 3vw); }
   .entrevistas__parrafo {
-    max-width: 70vw;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding: 0 5px 20px 5px;
     text-align: justify;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-size: x-large; }
     .entrevistas__parrafo__redessociales {
-      font-weight: bold; }
+      font-weight: bold;
+      text-decoration: none;
+      background: linear-gradient(to bottom, #000, #000 60%, #941919 60%, #050505 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent; }
   .entrevistas__videos {
     width: 100%;
     height: auto;
@@ -88,7 +93,7 @@
     flex-wrap: wrap;
     margin: 0 auto; }
     .entrevistas__videos__card {
-      max-width: 499px;
+      max-width: 600px;
       height: auto;
       margin: 0 auto;
       padding: 25px 10px;
@@ -109,13 +114,111 @@
         margin: 0 auto;
         text-align: justify;
         letter-spacing: 1px;
-        line-height: 30px; }
+        line-height: 30px;
+        font-size: large; }
       .entrevistas__videos__card__link {
         width: 100%;
-        min-height: 300px;
+        min-height: 350px;
         margin: 0 auto;
         padding-bottom: 10px; }
 
 @media only screen and (max-width: 699px) {
   .entrevistas__videos__card__parrafo {
     max-width: 90vw; } }
+
+.donaciones {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .donaciones__titulo {
+    width: auto;
+    height: auto;
+    padding-bottom: 100px;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: calc(2rem + 3vw); }
+
+.marcas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 100px; }
+  .marcas__titulo {
+    width: auto;
+    height: auto;
+    padding-bottom: 100px;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: calc(2rem + 3vw); }
+  .marcas__card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 150px; }
+    .marcas__card .figure {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 375px;
+      height: 667px;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      overflow: hidden;
+      cursor: help; }
+      .marcas__card .figure:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+        .marcas__card .figure:hover img {
+          transform: scale(1.25); }
+        .marcas__card .figure:hover figcaption {
+          bottom: 0; }
+      .marcas__card .figure__h1 {
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        color: white;
+        font-size: 60px;
+        font-weight: 300; }
+      .marcas__card .figure__img {
+        height: 100%;
+        transition: 0.25s; }
+      .marcas__card .figure__text {
+        position: absolute;
+        bottom: -38%;
+        width: 100%;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.85);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        color: white;
+        line-height: 1;
+        transition: 0.25s; }
+        .marcas__card .figure__text__h3 {
+          margin: 0 0 20px; }
+        .marcas__card .figure__text__parrafo {
+          font-size: 14px;
+          line-height: 1.75; }
+        .marcas__card .figure__text__button {
+          position: relative;
+          width: 80%;
+          margin: 10px 0 0;
+          padding: 10px 30px;
+          background-color: #2ecc71;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-size: 14px;
+          cursor: pointer; }
