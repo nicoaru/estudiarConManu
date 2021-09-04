@@ -32,13 +32,14 @@
 
     &__redessociales {
       font-weight: bold;
+      font-size: xx-large;
       text-decoration: none;
       background: linear-gradient(
         to bottom,
-        #000,
-        #000 60%,
-        rgb(148, 25, 25) 60%,
-        rgb(5, 5, 5) 100%
+        rgb(13, 14, 13),
+        rgb(84, 90, 73) 60%,
+        rgb(4, 28, 134) 60%,
+        rgb(77, 140, 230) 100%
       );
       background-clip: text;
       -webkit-background-clip: text;

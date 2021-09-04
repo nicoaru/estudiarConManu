@@ -80,8 +80,9 @@
     font-size: x-large; }
     .entrevistas__parrafo__redessociales {
       font-weight: bold;
+      font-size: xx-large;
       text-decoration: none;
-      background: linear-gradient(to bottom, #000, #000 60%, #941919 60%, #050505 100%);
+      background: linear-gradient(to bottom, #0d0e0d, #545a49 60%, #041c86 60%, #4d8ce6 100%);
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent; }
