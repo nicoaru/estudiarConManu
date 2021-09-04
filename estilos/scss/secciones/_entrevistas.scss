@@ -68,7 +68,8 @@
 
       &__parrafo {
         max-width: 70vw;
-        height: 220px;
+        min-height: 220px;
+        max-height: 400px;
 
         margin: 0 auto;
 

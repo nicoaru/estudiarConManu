@@ -104,7 +104,8 @@
         font-size: calc(1.5rem + 1vw); }
       .entrevistas__videos__card__parrafo {
         max-width: 70vw;
-        height: 220px;
+        min-height: 220px;
+        max-height: 400px;
         margin: 0 auto;
         text-align: justify;
         letter-spacing: 1px;
