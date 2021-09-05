@@ -5,8 +5,10 @@
   display: flex;
   flex-direction: column;
 
-  margin-top: 150px;
-  margin-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+  background-color: darken(#2c3e50d7, 1%);
 
   &__titulo {
     width: auto;
