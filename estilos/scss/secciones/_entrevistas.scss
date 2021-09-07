@@ -5,20 +5,22 @@
   display: flex;
   flex-direction: column;
 
-  background-color: darken(#2c3e50d7, 1%);
+  background-color: $color1;
 
   &__titulo {
     width: auto;
     height: auto;
 
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
-    color: black;
+    color: $colorTituloSecciones;
 
     text-align: center;
+    text-decoration: underline;
     letter-spacing: 3px;
     font-weight: 900;
-    font-size: calc(2rem + 3vw);
+    font-size: calc(3rem + 3vw);
+    font-family: $fontTitulos;
   }
   &__parrafo {
     max-width: 900px;
@@ -29,15 +31,22 @@
 
     text-align: justify;
     letter-spacing: 2px;
-
+    font-family: $fontSobreMi;
     font-size: x-large;
+
+    color: $colorTituloSecciones;
 
     &__redessociales {
       font-weight: 700;
       font-size: xx-large;
       text-decoration: none;
 
-      color: wheat;
+      font-style: italic;
+
+      // color: wheat;
+      color: $color2;
+
+      text-shadow: 2px 2px 1px rgb(8, 60, 231);
     }
   }
 
@@ -65,12 +74,15 @@
         width: 70%;
 
         padding-bottom: 10px;
-        color: $colorAmarillo;
+        // color: $colorAmarillo;
+        color: $color2;
 
         text-align: start;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
         font-weight: 500;
         font-size: calc(1.5rem + 1vw);
+        font-family: $fontTitulos;
+        text-shadow: 2px 2px black;
       }
 
       &__parrafo {
@@ -83,8 +95,11 @@
         text-align: justify;
         letter-spacing: 1px;
         line-height: 30px;
-
+        font-family: $fontSobreMi;
         font-size: large;
+        font-weight: 200;
+
+        color: $colorTituloSecciones;
       }
 
       &__link {

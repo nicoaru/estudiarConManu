@@ -7,21 +7,22 @@
 
   padding-top: 100px;
   padding-bottom: 100px;
-
-  background-color: darken(#2c3e50d7, 1%);
+  background-color: $color1;
 
   &__titulo {
     width: auto;
     height: auto;
 
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
-    color: black;
+    color: $colorTituloSecciones;
 
     text-align: center;
+    text-decoration: underline;
     letter-spacing: 3px;
     font-weight: 900;
-    font-size: calc(2rem + 3vw);
+    font-size: calc(3rem + 3vw);
+    font-family: $fontTitulos;
   }
 
   &__parrafo {
@@ -29,12 +30,14 @@
     height: auto;
 
     margin: 0 auto;
-    padding: 0 5px 20px 5px;
+    padding: 0 5px 90px 5px;
 
     text-align: justify;
     letter-spacing: 2px;
-
+    font-family: $fontSobreMi;
     font-size: x-large;
+
+    color: $colorTituloSecciones;
   }
 
   &__videos {
@@ -52,21 +55,23 @@
       height: auto;
 
       margin: 0 auto;
-      padding: 25px 10px;
+      padding: 40px 10px;
 
       display: flex;
       flex-direction: column;
 
       &__titulo {
         width: 100%;
-        height: calc(70px + 2vh);
+        height: auto;
 
-        color: $colorAmarillo;
+        color: $color2;
 
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
         font-weight: 500;
         font-size: calc(1rem + 1vw);
+        font-family: $fontTitulos;
+        text-shadow: 2px 2px black;
       }
 
       &__link {
