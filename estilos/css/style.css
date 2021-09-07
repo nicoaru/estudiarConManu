@@ -11,19 +11,22 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #fcde67c9; }
+  padding-bottom: 100px; }
   .tips__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 50px;
     color: #030e12;
     text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     font-weight: 900;
     font-size: calc(3rem + 3vw);
     font-family: "Bebas Neue", cursive; }
+  .tips__linea {
+    max-width: 700px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #828282;
+    margin-bottom: 50px; }
   .tips__parrafo {
     max-width: 900px;
     height: auto;
@@ -51,7 +54,7 @@
       .tips__videos__card__titulo {
         width: 100%;
         height: auto;
-        color: #5bccf6;
+        color: #ffdb82;
         text-align: center;
         letter-spacing: 5px;
         font-weight: 500;
@@ -68,19 +71,22 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
-  background-color: #fcde67c9; }
+  flex-direction: column; }
   .entrevistas__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 50px;
     color: #030e12;
     text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     font-weight: 900;
     font-size: calc(3rem + 3vw);
     font-family: "Bebas Neue", cursive; }
+  .entrevistas__linea {
+    max-width: 700px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #828282;
+    margin-bottom: 50px; }
   .entrevistas__parrafo {
     max-width: 900px;
     height: auto;
@@ -90,13 +96,13 @@
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
-    color: #030e12; }
+    color: "Bebas Neue", cursive; }
     .entrevistas__parrafo__redessociales {
       font-weight: 700;
       font-size: xx-large;
       text-decoration: none;
       font-style: italic;
-      color: #5bccf6;
+      color: #00f6da;
       text-shadow: 2px 2px 1px #083ce7; }
   .entrevistas__videos {
     width: 100%;
@@ -115,7 +121,7 @@
       .entrevistas__videos__card__titulo {
         width: 70%;
         padding-bottom: 10px;
-        color: #5bccf6;
+        color: #ffdb82;
         text-align: start;
         letter-spacing: 5px;
         font-weight: 500;
@@ -150,19 +156,22 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #fcde67c9; }
+  padding-bottom: 100px; }
   .donaciones__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 50px;
     color: #030e12;
     text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     font-weight: 900;
     font-size: calc(3rem + 3vw);
     font-family: "Bebas Neue", cursive; }
+  .donaciones__linea {
+    max-width: 700px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #828282;
+    margin-bottom: 50px; }
 
 .marcas {
   width: 100%;
@@ -170,19 +179,22 @@
   display: flex;
   flex-direction: column;
   padding-top: 150px;
-  padding-bottom: 100px;
-  background-color: #fcde67c9; }
+  padding-bottom: 100px; }
   .marcas__titulo {
     width: auto;
     height: auto;
-    padding-bottom: 50px;
     color: #030e12;
     text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     font-weight: 900;
     font-size: calc(3rem + 3vw);
     font-family: "Bebas Neue", cursive; }
+  .marcas__linea {
+    max-width: 700px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #828282;
+    margin-bottom: 50px; }
   .marcas__card {
     display: flex;
     flex-direction: row;
@@ -191,7 +203,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    gap: 150px; }
+    gap: 130px; }
     .marcas__card .figure {
       position: relative;
       display: flex;
@@ -214,7 +226,7 @@
         position: absolute;
         top: 50px;
         left: 15px;
-        color: #5bccf6;
+        color: white;
         background-color: transparent;
         font-size: 60px;
         font-weight: 700;
@@ -237,13 +249,14 @@
           margin: 0 0 20px;
           font-family: "Lato", sans-serif;
           background-color: transparent;
-          color: #5bccf6; }
+          color: white; }
         .marcas__card .figure__text__parrafo {
           font-size: 14px;
           line-height: 1.75;
           font-family: "Lato", sans-serif;
           background-color: transparent;
-          text-align: start; }
+          text-align: start;
+          color: white; }
         .marcas__card .figure__text__button {
           position: relative;
           width: 80%;

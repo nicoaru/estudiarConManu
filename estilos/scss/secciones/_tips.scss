@@ -7,22 +7,28 @@
 
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: $color1;
 
   &__titulo {
     width: auto;
     height: auto;
 
-    padding-bottom: 50px;
-
     color: $colorTituloSecciones;
 
     text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     font-weight: 900;
     font-size: calc(3rem + 3vw);
-    font-family: $fontTitulos;
+    font-family: $fontBebas;
+  }
+
+  &__linea {
+    max-width: 700px;
+    height: 5px;
+
+    margin: 0 auto;
+    background-color: $colorGris;
+
+    margin-bottom: 50px;
   }
 
   &__parrafo {
@@ -34,7 +40,7 @@
 
     text-align: start;
     letter-spacing: 2px;
-    font-family: $fontSobreMi;
+    font-family: $fontLato;
     font-size: x-large;
 
     color: $colorTituloSecciones;
@@ -64,13 +70,13 @@
         width: 100%;
         height: auto;
 
-        color: $color2;
+        color: $colorAmarillo;
 
         text-align: center;
         letter-spacing: 5px;
         font-weight: 500;
         font-size: calc(1rem + 1vw);
-        font-family: $fontTitulos;
+        font-family: $fontBebas;
         text-shadow: 2px 2px black;
       }
 

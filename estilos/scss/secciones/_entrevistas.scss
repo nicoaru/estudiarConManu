@@ -5,23 +5,30 @@
   display: flex;
   flex-direction: column;
 
-  background-color: $color1;
-
   &__titulo {
     width: auto;
     height: auto;
 
-    padding-bottom: 50px;
-
     color: $colorTituloSecciones;
 
     text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
+
     font-weight: 900;
     font-size: calc(3rem + 3vw);
-    font-family: $fontTitulos;
+    font-family: $fontBebas;
   }
+
+  &__linea {
+    max-width: 700px;
+    height: 5px;
+
+    margin: 0 auto;
+    background-color: $colorGris;
+
+    margin-bottom: 50px;
+  }
+
   &__parrafo {
     max-width: 900px;
     height: auto;
@@ -31,10 +38,10 @@
 
     text-align: start;
     letter-spacing: 2px;
-    font-family: $fontSobreMi;
+    font-family: $fontLato;
     font-size: x-large;
 
-    color: $colorTituloSecciones;
+    color: $fontBebas;
 
     &__redessociales {
       font-weight: 700;
@@ -44,7 +51,7 @@
       font-style: italic;
 
       // color: wheat;
-      color: $color2;
+      color: $colorTurquesa;
 
       text-shadow: 2px 2px 1px rgb(8, 60, 231);
     }
@@ -74,14 +81,13 @@
         width: 70%;
 
         padding-bottom: 10px;
-        // color: $colorAmarillo;
-        color: $color2;
+        color: $colorAmarillo;
 
         text-align: start;
         letter-spacing: 5px;
         font-weight: 500;
         font-size: calc(1.5rem + 1vw);
-        font-family: $fontTitulos;
+        font-family: $fontBebas;
         text-shadow: 2px 2px black;
       }
 
@@ -95,7 +101,7 @@
         text-align: start;
         letter-spacing: 1px;
         line-height: 30px;
-        font-family: $fontSobreMi;
+        font-family: $fontLato;
         font-size: large;
         font-weight: 200;
 
@@ -115,10 +121,6 @@
 }
 
 @media only screen and (max-width: 699px) {
-  // .entrevistas__titulo {
-  //   font-size: 10vw;
-  // }
-
   .entrevistas__videos__card__parrafo {
     max-width: 90vw;
   }
