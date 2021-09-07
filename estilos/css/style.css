@@ -65,7 +65,7 @@
         width: 100%;
         min-height: 350px;
         margin: 0 auto;
-        border-radius: 10px; }
+        border-radius: 5px; }
 
 @media only screen and (max-width: 650px) {
   .tips__videos__card {
@@ -83,7 +83,7 @@
     height: auto;
     color: #030e12;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     font-weight: 900;
     font-size: calc(3rem + 3vw);
     font-family: "Bebas Neue", cursive; }
@@ -135,7 +135,7 @@
         font-family: "Bebas Neue", cursive;
         text-shadow: 2px 2px black; }
       .entrevistas__videos__card__parrafo {
-        max-width: 70vw;
+        width: 100%;
         min-height: 220px;
         max-height: 400px;
         margin: 0 auto;
@@ -145,16 +145,14 @@
         font-family: "Lato", sans-serif;
         font-size: large;
         font-weight: 200;
+        background-color: #00f6da50;
         color: #030e12; }
       .entrevistas__videos__card__link {
         width: 100%;
         min-height: 350px;
         margin: 0 auto;
-        border-radius: 10px; }
-
-@media only screen and (max-width: 699px) {
-  .entrevistas__videos__card__parrafo {
-    max-width: 90vw; } }
+        background-color: #00f6da50;
+        border-radius: 5px; }
 
 @media only screen and (max-width: 600px) {
   .entrevistas__videos__card {
@@ -242,8 +240,7 @@
         background-color: transparent;
         font-size: 60px;
         font-weight: 700;
-        font-family: "Lato", sans-serif;
-        text-shadow: 2px 2px 1px #083ce7; }
+        font-family: "Lato", sans-serif; }
       .marcas__card .figure__img {
         height: 100%;
         transition: 0.25s; }

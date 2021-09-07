@@ -12,7 +12,7 @@
     color: $colorTituloSecciones;
 
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 
     font-weight: 900;
     font-size: calc(3rem + 3vw);
@@ -92,7 +92,8 @@
       }
 
       &__parrafo {
-        max-width: 70vw;
+        // max-width: 70vw;
+        width: 100%;
         min-height: 220px;
         max-height: 400px;
 
@@ -105,6 +106,7 @@
         font-size: large;
         font-weight: 200;
 
+        background-color: $colorTuquesaFondo;
         color: $colorTituloSecciones;
       }
 
@@ -114,15 +116,11 @@
 
         margin: 0 auto;
 
-        border-radius: 10px;
+        background-color: $colorTuquesaFondo;
+
+        border-radius: 5px;
       }
     }
-  }
-}
-
-@media only screen and (max-width: 699px) {
-  .entrevistas__videos__card__parrafo {
-    max-width: 90vw;
   }
 }
 
