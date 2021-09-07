@@ -67,6 +67,10 @@
         margin: 0 auto;
         border-radius: 10px; }
 
+@media only screen and (max-width: 650px) {
+  .tips__videos__card {
+    padding: 25px 0px; } }
+
 .entrevistas {
   width: 100%;
   height: auto;
@@ -149,6 +153,10 @@
 @media only screen and (max-width: 699px) {
   .entrevistas__videos__card__parrafo {
     max-width: 90vw; } }
+
+@media only screen and (max-width: 650px) {
+  .entrevistas__videos__card {
+    padding: 25px 0px; } }
 
 .donaciones {
   width: 100%;
