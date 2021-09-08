@@ -254,7 +254,7 @@
         border: 15px solid #ffdb82;
         border-radius: 50%;
         text-align: center;
-        background-image: url(../../../img/mp.jpg);
+        background-image: url(../../img/mp.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center; }
@@ -265,7 +265,7 @@
         border: 15px solid #ffdb82;
         border-radius: 50%;
         text-align: center;
-        background-image: url(../../../img/p.png);
+        background-image: url(../../img/p.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center; }
