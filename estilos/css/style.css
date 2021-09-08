@@ -194,7 +194,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 20px; }
+    gap: 40px; }
     .donaciones__items :hover {
       -webkit-animation: jello-horizontal 1.6s both;
       animation: jello-horizontal 1.6s both; }
