@@ -79,6 +79,8 @@
       flex-direction: column;
       background-color: $colorTuquesaFondo;
 
+      border-radius: 5px;
+
       &__titulo {
         width: 100%;
 
@@ -130,6 +132,7 @@
 
   .entrevistas__videos__card {
     padding: 25px 0px;
+    border-radius: 0px;
   }
 
   .entrevistas__videos__card__titulo {
