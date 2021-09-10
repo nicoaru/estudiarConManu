@@ -9,27 +9,64 @@
   padding-bottom: 100px;
 
   &__titulo {
-    width: auto;
-    height: auto;
+    display: flex;
+    flex-direction: row;
 
-    color: $colorTituloSecciones;
-
-    text-align: center;
-    letter-spacing: 10px;
-
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: $fontBebas;
-  }
-
-  &__linea {
-    max-width: 700px;
-    height: 5px;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
 
     margin: 0 auto;
-    background-color: $colorGris;
 
-    margin-bottom: 100px;
+    border-radius: 150px;
+    justify-content: space-between;
+
+    border: 5px solid $colorAzulOscuro;
+
+    margin-bottom: 150px;
+
+    &__texto {
+      width: 100%;
+      color: $colorAzulOscuro;
+
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+
+      font-size: 2.8rem;
+      font-family: $fontBebas;
+    }
+
+    &__pointer {
+      width: 65px;
+      height: 55px;
+
+      font-size: 1.8rem;
+
+      line-height: 53px;
+      text-align: center;
+
+      background-color: $colorAzulOscuro;
+
+      color: $colorBlanco;
+
+      border-radius: 50%;
+    }
+  }
+
+  &__parrafo {
+    max-width: 900px;
+    height: auto;
+
+    margin: 0 auto;
+    padding: 0 5px 100px 5px;
+
+    text-align: start;
+    letter-spacing: 2px;
+    font-family: $fontLato;
+    font-size: x-large;
+
+    color: $fontBebas;
   }
 
   &__items {
@@ -56,12 +93,28 @@
 
         margin: 0 auto;
 
-        border: 15px solid $colorAmarillo;
+        border: 15px solid $colorAzulOscuro;
         border-radius: 50%;
 
         text-align: center;
 
         background-image: url(../../img/mp.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      &__paypal {
+        width: 200px;
+        height: 200px;
+
+        margin: 0 auto;
+
+        border: 15px solid $colorAzulOscuro;
+        border-radius: 50%;
+
+        text-align: center;
+
+        background-image: url(../../img/ppal.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -72,7 +125,7 @@
 
         margin: 0 auto;
 
-        border: 15px solid $colorAmarillo;
+        border: 15px solid $colorAzulOscuro;
         border-radius: 50%;
 
         text-align: center;

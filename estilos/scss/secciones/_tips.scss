@@ -6,29 +6,53 @@
   flex-direction: column;
 
   padding-top: 100px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
+
+  background-color: $colorAzulOscuro;
 
   &__titulo {
-    width: auto;
-    height: auto;
+    display: flex;
+    flex-direction: row;
 
-    color: $colorTituloSecciones;
-
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: $fontBebas;
-  }
-
-  &__linea {
-    max-width: 700px;
-    height: 5px;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
 
     margin: 0 auto;
-    background-color: $colorGris;
+    margin-bottom: 150px;
 
-    margin-bottom: 50px;
+    border-radius: 150px;
+    justify-content: space-between;
+
+    border: 5px solid white;
+
+    &__texto {
+      width: 100%;
+      color: $colorBlanco;
+
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+
+      font-size: 2.8rem;
+      font-family: $fontBebas;
+    }
+
+    &__megafono {
+      width: 65px;
+      height: 55px;
+
+      font-size: 1.8rem;
+
+      line-height: 53px;
+      text-align: center;
+
+      color: $colorAzulOscuro;
+
+      background-color: $colorBlanco;
+
+      border-radius: 50%;
+    }
   }
 
   &__parrafo {
@@ -36,14 +60,14 @@
     height: auto;
 
     margin: 0 auto;
-    padding: 0 5px 90px 5px;
+    padding: 0 5px 100px 5px;
 
     text-align: start;
     letter-spacing: 2px;
     font-family: $fontLato;
     font-size: x-large;
 
-    color: $colorTituloSecciones;
+    color: $colorBlanco;
   }
 
   &__videos {
@@ -67,7 +91,6 @@
 
       display: flex;
       flex-direction: column;
-      background-color: $colorTuquesaFondo;
 
       border-radius: 5px;
 

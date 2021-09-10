@@ -5,30 +5,52 @@
   display: flex;
   flex-direction: column;
 
+  margin-bottom: 100px;
+
   &__titulo {
-    width: auto;
-    height: auto;
+    display: flex;
+    flex-direction: row;
 
-    color: $colorTituloSecciones;
-
-    text-align: center;
-    letter-spacing: 8px;
-
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: $fontBebas;
-  }
-
-  &__linea {
-    max-width: 700px;
-    height: 5px;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
 
     margin: 0 auto;
-    background-color: $colorGris;
+    margin-bottom: 150px;
 
-    margin-bottom: 50px;
+    border-radius: 150px;
+    justify-content: space-between;
+
+    border: 5px solid $colorAzulOscuro;
+
+    &__texto {
+      width: 100%;
+      color: $colorAzulOscuro;
+
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+
+      font-size: 2.8rem;
+      font-family: $fontBebas;
+    }
+
+    &__microfono {
+      width: 65px;
+      height: 55px;
+
+      font-size: 1.8rem;
+
+      line-height: 53px;
+      text-align: center;
+
+      background-color: $colorAzulOscuro;
+
+      color: $colorBlanco;
+
+      border-radius: 50%;
+    }
   }
-
   &__parrafo {
     max-width: 900px;
     height: auto;
@@ -77,7 +99,7 @@
 
       display: flex;
       flex-direction: column;
-      background-color: $colorTuquesaFondo;
+      background-color: $colorAzulOscuro;
 
       border-radius: 5px;
 
@@ -110,7 +132,7 @@
         font-size: large;
         font-weight: 200;
 
-        color: $colorTituloSecciones;
+        color: $colorBlanco;
       }
 
       &__link {

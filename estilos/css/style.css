@@ -11,32 +11,46 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px; }
+  margin-bottom: 100px;
+  background-color: #14274a; }
   .tips__titulo {
-    width: auto;
-    height: auto;
-    color: #030e12;
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: "Bebas Neue", cursive; }
-  .tips__linea {
-    max-width: 700px;
-    height: 5px;
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
     margin: 0 auto;
-    background-color: #828282;
-    margin-bottom: 50px; }
+    margin-bottom: 150px;
+    border-radius: 150px;
+    justify-content: space-between;
+    border: 5px solid white; }
+    .tips__titulo__texto {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+      font-size: 2.8rem;
+      font-family: "Bebas Neue", cursive; }
+    .tips__titulo__megafono {
+      width: 65px;
+      height: 55px;
+      font-size: 1.8rem;
+      line-height: 53px;
+      text-align: center;
+      color: #14274a;
+      background-color: #fff;
+      border-radius: 50%; }
   .tips__parrafo {
     max-width: 900px;
     height: auto;
     margin: 0 auto;
-    padding: 0 5px 90px 5px;
+    padding: 0 5px 100px 5px;
     text-align: start;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
-    color: #030e12; }
+    color: #fff; }
   .tips__videos {
     width: 100%;
     height: auto;
@@ -52,7 +66,6 @@
       margin-bottom: 40px;
       display: flex;
       flex-direction: column;
-      background-color: #00f6da50;
       border-radius: 5px; }
       .tips__videos__card__titulo {
         width: 100%;
@@ -83,22 +96,36 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 100px; }
   .entrevistas__titulo {
-    width: auto;
-    height: auto;
-    color: #030e12;
-    text-align: center;
-    letter-spacing: 8px;
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: "Bebas Neue", cursive; }
-  .entrevistas__linea {
-    max-width: 700px;
-    height: 5px;
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
     margin: 0 auto;
-    background-color: #828282;
-    margin-bottom: 50px; }
+    margin-bottom: 150px;
+    border-radius: 150px;
+    justify-content: space-between;
+    border: 5px solid #14274a; }
+    .entrevistas__titulo__texto {
+      width: 100%;
+      color: #14274a;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+      font-size: 2.8rem;
+      font-family: "Bebas Neue", cursive; }
+    .entrevistas__titulo__microfono {
+      width: 65px;
+      height: 55px;
+      font-size: 1.8rem;
+      line-height: 53px;
+      text-align: center;
+      background-color: #14274a;
+      color: #fff;
+      border-radius: 50%; }
   .entrevistas__parrafo {
     max-width: 900px;
     height: auto;
@@ -131,7 +158,7 @@
       margin-bottom: 30px;
       display: flex;
       flex-direction: column;
-      background-color: #00f6da50;
+      background-color: #14274a;
       border-radius: 5px; }
       .entrevistas__videos__card__titulo {
         width: 100%;
@@ -154,7 +181,7 @@
         font-family: "Lato", sans-serif;
         font-size: large;
         font-weight: 200;
-        color: #030e12; }
+        color: #fff; }
       .entrevistas__videos__card__link {
         width: 100%;
         min-height: 350px;
@@ -182,20 +209,43 @@
   padding-top: 100px;
   padding-bottom: 100px; }
   .donaciones__titulo {
-    width: auto;
-    height: auto;
-    color: #030e12;
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: "Bebas Neue", cursive; }
-  .donaciones__linea {
-    max-width: 700px;
-    height: 5px;
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
     margin: 0 auto;
-    background-color: #828282;
-    margin-bottom: 100px; }
+    border-radius: 150px;
+    justify-content: space-between;
+    border: 5px solid #14274a;
+    margin-bottom: 150px; }
+    .donaciones__titulo__texto {
+      width: 100%;
+      color: #14274a;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+      font-size: 2.8rem;
+      font-family: "Bebas Neue", cursive; }
+    .donaciones__titulo__pointer {
+      width: 65px;
+      height: 55px;
+      font-size: 1.8rem;
+      line-height: 53px;
+      text-align: center;
+      background-color: #14274a;
+      color: #fff;
+      border-radius: 50%; }
+  .donaciones__parrafo {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px 100px 5px;
+    text-align: start;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+    font-size: x-large;
+    color: "Bebas Neue", cursive; }
   .donaciones__items {
     display: flex;
     flex-direction: row;
@@ -259,10 +309,21 @@
         width: 200px;
         height: 200px;
         margin: 0 auto;
-        border: 15px solid #ffdb82;
+        border: 15px solid #14274a;
         border-radius: 50%;
         text-align: center;
         background-image: url(../../img/mp.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .donaciones__items__link__paypal {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border: 15px solid #14274a;
+        border-radius: 50%;
+        text-align: center;
+        background-image: url(../../img/ppal.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center; }
@@ -270,7 +331,7 @@
         width: 200px;
         height: 200px;
         margin: 0 auto;
-        border: 15px solid #ffdb82;
+        border: 15px solid #14274a;
         border-radius: 50%;
         text-align: center;
         background-image: url(../../img/p.png);
@@ -284,22 +345,36 @@
   display: flex;
   flex-direction: column;
   padding-top: 150px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  background-color: #14274a; }
   .marcas__titulo {
-    width: auto;
-    height: auto;
-    color: #030e12;
-    text-align: center;
-    letter-spacing: 10px;
-    font-weight: 900;
-    font-size: calc(3rem + 3vw);
-    font-family: "Bebas Neue", cursive; }
-  .marcas__linea {
-    max-width: 700px;
-    height: 5px;
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    max-width: 350px;
+    height: 65px;
     margin: 0 auto;
-    background-color: #828282;
-    margin-bottom: 50px; }
+    border-radius: 150px;
+    justify-content: space-between;
+    border: 5px solid #fff;
+    margin-bottom: 150px; }
+    .marcas__titulo__texto {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 100;
+      font-size: 2.8rem;
+      font-family: "Bebas Neue", cursive; }
+    .marcas__titulo__handshake {
+      width: 65px;
+      height: 55px;
+      font-size: 1.8rem;
+      line-height: 53px;
+      text-align: center;
+      color: #14274a;
+      background-color: #fff;
+      border-radius: 50%; }
   .marcas__card {
     display: flex;
     flex-direction: row;
