@@ -15,8 +15,10 @@
     flex-direction: row;
 
     min-width: 320px;
-    max-width: 350px;
-    height: 65px;
+    max-width: 410px;
+    height: 80px;
+
+    line-height: 75px;
 
     margin: 0 auto;
 
@@ -27,37 +29,38 @@
 
     border: 5px solid white;
 
+    &__container {
+      display: flex;
+
+      background-color: $colorBlanco;
+      width: 95px;
+      height: 75px;
+
+      position: relative;
+      right: 5px;
+      bottom: 2px;
+
+      border-radius: 50%;
+
+      justify-content: center;
+      align-items: center;
+
+      &__megafono {
+        width: 50px;
+        height: 45px;
+      }
+    }
+
     &__texto {
       width: 100%;
       color: $colorBlanco;
 
       text-align: center;
-      letter-spacing: 2px;
+      letter-spacing: 0px;
       font-weight: 100;
 
-      font-size: 2.8rem;
+      font-size: 55px;
       font-family: $fontBebas;
-    }
-
-    &__megafono {
-      width: 80px;
-      height: 60px;
-
-      position: relative;
-      right: 2px;
-      bottom: 2px;
-
-      font-size: 1.8rem;
-
-      line-height: 60px;
-
-      text-align: center;
-
-      color: $colorAzulOscuro;
-
-      background-color: $colorBlanco;
-
-      border-radius: 50%;
     }
   }
 
@@ -130,6 +133,10 @@
 @media only screen and (max-width: 600px) {
   .tips__parrafo {
     text-align: center;
+  }
+
+  .tips__titulo__texto {
+    font-size: calc(2.3rem + 1.8vw);
   }
 
   .tips__videos__card {
