@@ -21,6 +21,8 @@
     border-radius: 150px;
     justify-content: space-between;
 
+    margin-bottom: 150px;
+
     border: 5px solid $colorAzulOscuro;
 
     margin-bottom: 150px;
@@ -38,10 +40,15 @@
     }
 
     &__pointer {
-      width: 65px;
-      height: 55px;
+      width: 80px;
+      height: 60px;
+
+      position: relative;
+      right: 2px;
+      bottom: 2px;
 
       font-size: 1.8rem;
+      font-weight: 800;
 
       line-height: 53px;
       text-align: center;
@@ -55,7 +62,7 @@
   }
 
   &__parrafo {
-    max-width: 900px;
+    max-width: 1100px;
     height: auto;
 
     margin: 0 auto;

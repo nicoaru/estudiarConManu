@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: column;
 
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   &__titulo {
     display: flex;
@@ -16,10 +17,11 @@
     height: 65px;
 
     margin: 0 auto;
-    margin-bottom: 150px;
 
     border-radius: 150px;
     justify-content: space-between;
+
+    margin-bottom: 150px;
 
     border: 5px solid $colorAzulOscuro;
 
@@ -36,8 +38,12 @@
     }
 
     &__microfono {
-      width: 65px;
-      height: 55px;
+      width: 80px;
+      height: 60px;
+
+      position: relative;
+      right: 2px;
+      bottom: 2px;
 
       font-size: 1.8rem;
 
