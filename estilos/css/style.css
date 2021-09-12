@@ -52,7 +52,7 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 100px 5px;
-    text-align: start;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
@@ -75,7 +75,7 @@
       border-radius: 5px; }
       .tips__videos__card__titulo {
         width: 100%;
-        height: 110px;
+        height: 80px;
         color: #ffdb82;
         text-align: center;
         letter-spacing: 5px;
@@ -83,22 +83,31 @@
         font-size: calc(1.5rem + 1vw);
         font-family: "Bebas Neue", cursive;
         text-shadow: #0c0c0c 1px 1px 5px; }
+        .tips__videos__card__titulo__special {
+          letter-spacing: 2px; }
       .tips__videos__card__link {
         width: 100%;
         min-height: 350px;
         margin: 0 auto;
+        margin-bottom: 50px;
         border-radius: 15px; }
 
 @media only screen and (max-width: 600px) {
+  .tips__titulo {
+    margin-bottom: 100px; }
   .tips__parrafo {
-    text-align: center; }
+    text-align: justify;
+    letter-spacing: 1px; }
   .tips__titulo__texto {
     font-size: calc(2.3rem + 1.8vw); }
   .tips__videos__card {
     padding: 25px 0px;
     border-radius: 0px; }
+  .tips__videos__card__titulo {
+    font-size: calc(1.5rem + 1.5vw); }
   .tips__videos__card__link {
-    border-radius: 0%; } }
+    border-radius: 0%;
+    margin-bottom: 10px; } }
 
 .entrevistas {
   width: 100%;
@@ -146,14 +155,14 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 100px 5px;
-    text-align: start;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
     color: #14274a; }
     .entrevistas__parrafo__redessociales {
       font-weight: 700;
-      font-size: xx-large;
+      font-size: x-large;
       text-decoration: none;
       font-style: italic;
       color: #00f6da;
@@ -191,7 +200,7 @@
         max-height: 400px;
         margin: 0 auto;
         line-height: 30px;
-        text-align: start;
+        text-align: justify;
         letter-spacing: 1px;
         font-family: "Lato", sans-serif;
         font-size: large;
@@ -204,15 +213,20 @@
         border-radius: 5px; }
 
 @media only screen and (max-width: 600px) {
+  .entrevistas__titulo {
+    margin-bottom: 100px; }
   .entrevistas__parrafo {
-    text-align: center; }
+    text-align: justify;
+    letter-spacing: 0px; }
   .entrevistas__videos__card {
     padding: 25px 0px;
     border-radius: 0px; }
   .entrevistas__videos__card__titulo {
     text-align: center; }
   .entrevistas__videos__card__parrafo {
-    text-align: center; }
+    text-align: justify;
+    letter-spacing: 0px;
+    padding: 5px; }
   .entrevistas__videos__card__link {
     border-radius: 0%; } }
 
@@ -359,6 +373,14 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center; }
+
+@media only screen and (max-width: 600px) {
+  .donaciones__titulo {
+    margin-bottom: 100px; }
+  .donaciones__parrafo {
+    text-align: justify;
+    letter-spacing: 0px;
+    padding: 5px 5px 100px 5px; } }
 
 .marcas {
   width: 100%;
