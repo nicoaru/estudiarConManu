@@ -276,11 +276,11 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 150px 5px;
-    text-align: start;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
-    color: "Bebas Neue", cursive; }
+    color: #14274a; }
   .donaciones__items {
     display: flex;
     flex-direction: row;
@@ -467,3 +467,65 @@
         font-family: "Lato", sans-serif;
         font-size: x-large;
         margin-bottom: 35px; }
+
+.unpocomassobremi {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #14274a; }
+  .unpocomassobremi__titulo {
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    max-width: 410px;
+    height: 80px;
+    line-height: 75px;
+    margin: 0 auto;
+    border-radius: 150px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    border: 5px solid #fff; }
+    .unpocomassobremi__titulo__texto {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 0px;
+      font-weight: 100;
+      font-size: 55px;
+      font-family: "Bebas Neue", cursive; }
+    .unpocomassobremi__titulo__userplus {
+      width: 100px;
+      height: 75px;
+      position: relative;
+      right: 2px;
+      bottom: 2px;
+      font-size: 45px;
+      line-height: 75px;
+      text-align: center;
+      color: #14274a;
+      background-color: #fff;
+      border-radius: 50%; }
+  .unpocomassobremi__parrafo {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px 150px 5px;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+    font-size: x-large;
+    color: #fff; }
+  .unpocomassobremi__imagen {
+    min-width: 325px;
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto; }
+    .unpocomassobremi__imagen__img {
+      border-radius: 10px; }
+
+@media only screen and (max-width: 600px) {
+  .unpocomassobremi__titulo__texto {
+    font-size: 50px; } }
