@@ -518,14 +518,30 @@
     font-family: "Lato", sans-serif;
     font-size: x-large;
     color: #fff; }
+    .unpocomassobremi__parrafo__effect {
+      font-weight: 600;
+      color: #ffdb82; }
   .unpocomassobremi__imagen {
     min-width: 325px;
     max-width: 1500px;
-    height: auto;
-    margin: 0 auto; }
-    .unpocomassobremi__imagen__img {
-      border-radius: 10px; }
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../../img/vlogs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px; }
+    .unpocomassobremi__imagen__click {
+      height: 100%;
+      width: 100%; }
 
 @media only screen and (max-width: 600px) {
+  .unpocomassobremi__parrafo {
+    padding: 0 5px 50px 5px; }
   .unpocomassobremi__titulo__texto {
     font-size: 50px; } }
+
+@media only screen and (max-width: 700px) {
+  .unpocomassobremi__imagen {
+    background-image: url(../../img/vlogs2.jpg);
+    background-size: contain; } }

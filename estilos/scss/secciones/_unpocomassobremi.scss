@@ -75,23 +75,47 @@
     font-size: x-large;
 
     color: $colorBlanco;
+
+    &__effect {
+      font-weight: 600;
+      color: $colorAmarillo;
+    }
   }
 
   &__imagen {
     min-width: 325px;
     max-width: 1500px;
-    height: auto;
+    height: 300px;
 
     margin: 0 auto;
 
-    &__img {
-      border-radius: 10px;
+    background-image: url(../../img/vlogs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 10px;
+
+    &__click {
+      height: 100%;
+      width: 100%;
     }
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .unpocomassobremi__parrafo {
+    padding: 0 5px 50px 5px;
+  }
+
   .unpocomassobremi__titulo__texto {
     font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .unpocomassobremi__imagen {
+    background-image: url(../../img/vlogs2.jpg);
+    background-size: contain;
   }
 }
