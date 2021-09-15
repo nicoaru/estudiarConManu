@@ -1,0 +1,29 @@
+Texto de Martina
+
+La fuente de Bienvenidos es Roboto medium.
+Aprende y entérate todo Roboto Bold.
+
+Estudia con Manu Bebas Neue.
+Las secciones es Bebas Neue
+
+La tipografía de sobre mi y el texto es Lato regular
+
+Tamaño de tipografía: 
+Inicio, quién soy, tips/consejos, donaciones (32)
+Bienvenido a (77)
+Estudia con Manu (133)
+Aprende y entérate(39)
+texto sobre mi (14)
+título sobre mi(14 mayúsculas)
+Títulos: 55
+
+
+Colores: 
+turqueza (00F6DA) 
+para fondos de textos usar opacidad 24. 
+
+Amarillo: FFDB82. 
+
+Gris: 828282. 
+
+Azul: 14274A
