@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  width: calc(100vw - (100vw - 100%)); }
+  width: 100%; }
 
 .tips {
   width: 100%;
@@ -52,7 +52,7 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 100px 5px;
-    text-align: start;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
@@ -75,7 +75,7 @@
       border-radius: 5px; }
       .tips__videos__card__titulo {
         width: 100%;
-        height: 110px;
+        height: 80px;
         color: #ffdb82;
         text-align: center;
         letter-spacing: 5px;
@@ -83,22 +83,31 @@
         font-size: calc(1.5rem + 1vw);
         font-family: "Bebas Neue", cursive;
         text-shadow: #0c0c0c 1px 1px 5px; }
+        .tips__videos__card__titulo__special {
+          letter-spacing: 2px; }
       .tips__videos__card__link {
         width: 100%;
         min-height: 350px;
         margin: 0 auto;
+        margin-bottom: 50px;
         border-radius: 15px; }
 
 @media only screen and (max-width: 600px) {
+  .tips__titulo {
+    margin-bottom: 100px; }
   .tips__parrafo {
-    text-align: center; }
+    text-align: justify;
+    letter-spacing: 1px; }
   .tips__titulo__texto {
     font-size: calc(2.3rem + 1.8vw); }
   .tips__videos__card {
     padding: 25px 0px;
     border-radius: 0px; }
+  .tips__videos__card__titulo {
+    font-size: calc(1.5rem + 1.5vw); }
   .tips__videos__card__link {
-    border-radius: 0%; } }
+    border-radius: 0%;
+    margin-bottom: 10px; } }
 
 .entrevistas {
   width: 100%;
@@ -146,14 +155,14 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 100px 5px;
-    text-align: start;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
     color: #14274a; }
     .entrevistas__parrafo__redessociales {
       font-weight: 700;
-      font-size: xx-large;
+      font-size: x-large;
       text-decoration: none;
       font-style: italic;
       color: #00f6da;
@@ -191,7 +200,7 @@
         max-height: 400px;
         margin: 0 auto;
         line-height: 30px;
-        text-align: start;
+        text-align: justify;
         letter-spacing: 1px;
         font-family: "Lato", sans-serif;
         font-size: large;
@@ -204,15 +213,20 @@
         border-radius: 5px; }
 
 @media only screen and (max-width: 600px) {
+  .entrevistas__titulo {
+    margin-bottom: 100px; }
   .entrevistas__parrafo {
-    text-align: center; }
+    text-align: justify;
+    letter-spacing: 0px; }
   .entrevistas__videos__card {
     padding: 25px 0px;
     border-radius: 0px; }
   .entrevistas__videos__card__titulo {
     text-align: center; }
   .entrevistas__videos__card__parrafo {
-    text-align: center; }
+    text-align: justify;
+    letter-spacing: 0px;
+    padding: 5px; }
   .entrevistas__videos__card__link {
     border-radius: 0%; } }
 
@@ -262,11 +276,11 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 150px 5px;
-    text-align: start;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
-    color: "Bebas Neue", cursive; }
+    color: #14274a; }
   .donaciones__items {
     display: flex;
     flex-direction: row;
@@ -360,6 +374,14 @@
         background-repeat: no-repeat;
         background-position: center; }
 
+@media only screen and (max-width: 600px) {
+  .donaciones__titulo {
+    margin-bottom: 100px; }
+  .donaciones__parrafo {
+    text-align: justify;
+    letter-spacing: 0px;
+    padding: 5px 5px 100px 5px; } }
+
 .marcas {
   width: 100%;
   height: auto;
@@ -445,3 +467,81 @@
         font-family: "Lato", sans-serif;
         font-size: x-large;
         margin-bottom: 35px; }
+
+.unpocomassobremi {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #14274a; }
+  .unpocomassobremi__titulo {
+    display: flex;
+    flex-direction: row;
+    min-width: 320px;
+    max-width: 410px;
+    height: 80px;
+    line-height: 75px;
+    margin: 0 auto;
+    border-radius: 150px;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    border: 5px solid #fff; }
+    .unpocomassobremi__titulo__texto {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 0px;
+      font-weight: 100;
+      font-size: 55px;
+      font-family: "Bebas Neue", cursive; }
+    .unpocomassobremi__titulo__userplus {
+      width: 100px;
+      height: 75px;
+      position: relative;
+      right: 2px;
+      bottom: 2px;
+      font-size: 45px;
+      line-height: 75px;
+      text-align: center;
+      color: #14274a;
+      background-color: #fff;
+      border-radius: 50%; }
+  .unpocomassobremi__parrafo {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px 150px 5px;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+    font-size: x-large;
+    color: #fff; }
+    .unpocomassobremi__parrafo__effect {
+      font-weight: 600;
+      color: #ffdb82; }
+  .unpocomassobremi__imagen {
+    min-width: 325px;
+    max-width: 1500px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../../img/vlogs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px; }
+    .unpocomassobremi__imagen__click {
+      height: 100%;
+      width: 100%; }
+
+@media only screen and (max-width: 600px) {
+  .unpocomassobremi__parrafo {
+    padding: 0 5px 50px 5px; }
+  .unpocomassobremi__titulo__texto {
+    font-size: 50px; } }
+
+@media only screen and (max-width: 700px) {
+  .unpocomassobremi__imagen {
+    background-image: url(../../img/vlogs2.jpg);
+    background-size: contain; } }
