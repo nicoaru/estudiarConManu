@@ -7,7 +7,7 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-header *, .quien__soy * {
+header *, .quien__soy *, .footer * {
     width: initial;
     box-sizing: border-box;
 }
@@ -35,8 +35,16 @@ header {
         margin-right: 10px;
         color: #FFDB82 !important;
         font-weight: bold;
-        border-bottom: 1px solid #FFDB82;
-        /* text-decoration: underline; */
+        text-decoration: underline;
+        text-underline-position: under;
+        font-size: 1.25rem;
+        font-weight: normal;
+        letter-spacing: 0.1rem;
+        font-family: "Bebas Neue", sans-serif;
+        /*border-bottom: 1px solid #FFDB82;*/
+    }
+    .sections__nav a:hover {
+        color: #00F6DA !important;
     }
     .sections__nav .nav-item {
     margin-left: 10px;
@@ -156,8 +164,14 @@ position: relative;
     left: 0;
     width: 100%;
     height: 100%;
-    /*width: 100%;
-    width: 560px;
-    height: 315px; */
 }
-/*///*-
+
+/* FOOTER */
+.footer {
+    background-color: #14274A;
+    padding-bottom: 50px;
+}
+.footer__icon {
+    margin: 0px 15px 0px 15px;
+    height: 25px;
+}
