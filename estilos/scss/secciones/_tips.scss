@@ -48,6 +48,9 @@
       &__megafono {
         width: 50px;
         height: 45px;
+        img {
+          vertical-align: unset;
+        }
       }
     }
 

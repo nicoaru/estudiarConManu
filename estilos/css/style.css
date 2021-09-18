@@ -39,6 +39,8 @@
       .tips__titulo__container__megafono {
         width: 50px;
         height: 45px; }
+        .tips__titulo__container__megafono img {
+          vertical-align: unset; }
     .tips__titulo__texto {
       width: 100%;
       color: #fff;
@@ -142,6 +144,8 @@
       .entrevistas__titulo__container__microphone {
         width: 50px;
         height: 50px; }
+        .entrevistas__titulo__container__microphone img {
+          vertical-align: unset; }
     .entrevistas__titulo__texto {
       width: 100%;
       color: #14274a;
@@ -263,6 +267,8 @@
       .donaciones__titulo__container__handpoint {
         width: 35px;
         height: 55px; }
+        .donaciones__titulo__container__handpoint img {
+          vertical-align: unset; }
     .donaciones__titulo__texto {
       width: 100%;
       color: #14274a;
@@ -534,6 +540,8 @@
     .unpocomassobremi__imagen__click {
       height: 100%;
       width: 100%; }
+      .unpocomassobremi__imagen__click img {
+        vertical-align: unset; }
 
 @media only screen and (max-width: 600px) {
   .unpocomassobremi__parrafo {

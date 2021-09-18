@@ -46,6 +46,9 @@
       &__handpoint {
         width: 35px;
         height: 55px;
+        img {
+          vertical-align: unset;
+        }
       }
     }
 

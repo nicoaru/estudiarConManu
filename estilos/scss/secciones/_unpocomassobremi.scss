@@ -99,6 +99,9 @@
     &__click {
       height: 100%;
       width: 100%;
+      img {
+        vertical-align: unset;
+      }
     }
   }
 }
