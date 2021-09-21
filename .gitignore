@@ -4074,3 +4074,12 @@ node_modules/yargs-parser/build/lib/yargs-parser.js
 package.json
 package-lock.json
 fuentes texto.txt
+estilos/scss/style.scss
+estilos/scss/secciones/_unpocomassobremi.scss
+estilos/scss/secciones/_tips.scss
+estilos/scss/secciones/_marcas.scss
+estilos/scss/secciones/_entrevistas.scss
+estilos/scss/secciones/_donaciones.scss
+estilos/scss/core/_variables.scss
+estilos/scss/core/_resets.scss
+estilos/scss/core/_animaciones.scss
