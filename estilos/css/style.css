@@ -55,7 +55,6 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 100px 5px;
-    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
@@ -161,7 +160,6 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 100px 5px;
-    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
@@ -284,11 +282,10 @@
       font-size: 55px;
       font-family: "Bebas Neue", cursive; }
   .donaciones__parrafo {
-    max-width: 1100px;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
     padding: 0 5px 150px 5px;
-    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
@@ -527,7 +524,6 @@
     height: auto;
     margin: 0 auto;
     padding: 0 5px 150px 5px;
-    text-align: justify;
     letter-spacing: 2px;
     font-family: "Lato", sans-serif;
     font-size: x-large;
