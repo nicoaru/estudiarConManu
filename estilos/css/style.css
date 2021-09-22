@@ -47,6 +47,7 @@
       text-align: center;
       letter-spacing: 0px;
       font-weight: 100;
+      line-height: 75px;
       font-size: 55px;
       font-family: "Bebas Neue", cursive; }
   .tips__parrafo {
@@ -152,6 +153,7 @@
       text-align: center;
       letter-spacing: 0px;
       font-weight: 100;
+      line-height: 75px;
       font-size: 55px;
       font-family: "Bebas Neue", cursive; }
   .entrevistas__parrafo {
@@ -171,6 +173,9 @@
       font-style: italic;
       color: #00f6da;
       text-shadow: 2px 2px 1px #083ce7; }
+      .entrevistas__parrafo__redessociales:hover {
+        color: #00f6da;
+        text-shadow: 2px 2px 1px #083ce7; }
   .entrevistas__videos {
     width: 100%;
     height: auto;
@@ -275,6 +280,7 @@
       text-align: center;
       letter-spacing: 0px;
       font-weight: 100;
+      line-height: 75px;
       font-size: 55px;
       font-family: "Bebas Neue", cursive; }
   .donaciones__parrafo {
@@ -414,6 +420,7 @@
       text-align: center;
       letter-spacing: 0px;
       font-weight: 100;
+      line-height: 80px;
       font-size: 55px;
       font-family: "Bebas Neue", cursive; }
     .marcas__titulo__handshake {
@@ -500,6 +507,7 @@
       text-align: center;
       letter-spacing: 0px;
       font-weight: 100;
+      line-height: 80px;
       font-size: 55px;
       font-family: "Bebas Neue", cursive; }
     .unpocomassobremi__titulo__userplus {
