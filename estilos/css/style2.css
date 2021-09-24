@@ -18,7 +18,11 @@ header {
     background-image: url(../../img/derecho-1.png);
     background-size: cover;
 }
-
+@media only screen and (max-width: 767px) {
+    header {
+        height: 100vh;
+    }
+}
     /* NAVBAR */
     .navbar {
         padding: 25px 25px 0px 25px;
@@ -34,7 +38,6 @@ header {
         margin-left: 10px;
         margin-right: 10px;
         color: #FFDB82 !important;
-        font-weight: bold;
         text-decoration: underline;
         text-underline-position: under;
         font-size: 1.25rem;
@@ -87,6 +90,44 @@ header {
     .social__media__nav .nav__icon {
         height: 20px;
     }
+    .navbar button {
+        width: 30px;
+        height: 30px;
+        border: none !important; }
+    .navbar button span {
+        width: 30px !important;
+        height: 30px !important; }
+    
+        @media only screen and (max-width: 992px) {
+            .social__media__nav {
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            .navbar {
+                padding: 25px 5% 0px 5%;
+            }
+            .foto__navbar {
+                width: 40px;
+                height: 40px;
+            }
+            .sections__nav {
+                position: absolute;
+                top: 100%;
+                right: 0px;
+                text-align: end;
+            }
+            .sections__nav a {
+                padding: 0px !important;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .sections__nav a {
+                font-size: 0.8rem;
+            }
+        }
 
     /* PORTADA */
     .portada {
@@ -130,6 +171,49 @@ header {
         margin-right: 7%;
         border-radius: 50%;
     }
+        @media only screen and (max-width: 767px) {
+            .foto__portada {
+                display: none;
+            }
+            .portada {
+                position: relative;
+                top: -25px;
+                height: calc(100% - 75px);
+                padding: 0px 5% 0px 5%;
+            }
+            .portada .portada__flex__container {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* width: min-content;
+                white-space: nowrap;
+                margin-left: auto;
+                margin-right: auto; */
+            }
+            .portada h2 {
+                font-size: 1.5rem;
+            }
+            .portada h1 {
+                font-size: 4rem;
+            }
+            .portada h3 {
+                font-size: 1.2rem;
+                line-height: 2rem;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .portada h2 {
+                font-size: 1rem;
+            }
+            .portada h1 {
+                font-size: 2.5rem;
+            }
+            .portada h3 {
+                font-size: 0.9rem;
+                line-height: 2rem;
+            }
+        }
 /* FIN HEADER */
 
 /* QUIEN SOY */
@@ -161,6 +245,9 @@ position: relative;
     text-align: justify;
     line-height: 1.5em;
 }
+.sobre__mi p:last-of-type {
+    margin-bottom: 0px;
+}
 .sobre__mi .foto__sobre__mi {
     position: absolute;
     left: 50%;
@@ -183,6 +270,32 @@ position: relative;
     width: 100%;
     height: 100%;
 }
+@media only screen and (max-width: 767px) {
+    .quien__soy {
+        flex-flow: row wrap;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .foto__sobre__mi {
+        width: 100px;
+        /* display: none; */
+    }
+    .sobre__mi {
+        width: 90%;
+        margin-top: 75px;
+        /* padding-top: 25px; */
+    }
+    .sobre__mi .sobre__mi__titulo {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+    .video__sobre__mi__container {
+        margin-top: 25px;
+        width: 90%;
+    }
+}
+
 
 /* FOOTER */
 .footer {
@@ -212,4 +325,13 @@ position: relative;
 }
 .footer__icon {
     height: 25px;
+}
+@media only screen and (max-width: 767px) {
+    .footer li {
+        height: 40px;
+        width: 40px;
+    }
+    .footer__icon {
+        height: 20px;
+    }
 }
