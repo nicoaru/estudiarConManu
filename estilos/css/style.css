@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  width: 100%; }
+  width: 100%;
+}
 
 .tips {
   width: 100%;
@@ -12,105 +13,125 @@
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #14274a; }
-  .tips__titulo {
-    display: flex;
-    flex-direction: row;
-    min-width: 320px;
-    max-width: 410px;
-    height: 80px;
-    line-height: 75px;
-    margin: 0 auto;
-    border-radius: 150px;
-    justify-content: space-between;
-    margin-bottom: 150px;
-    border: 5px solid white; }
-    .tips__titulo__container {
-      display: flex;
-      background-color: #fff;
-      width: 95px;
-      height: 75px;
-      position: relative;
-      right: 5px;
-      bottom: 2px;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center; }
-      .tips__titulo__container__megafono {
-        width: 50px;
-        height: 45px; }
-        .tips__titulo__container__megafono img {
-          vertical-align: unset; }
-    .tips__titulo__texto {
-      width: 100%;
-      color: #fff;
-      text-align: center;
-      letter-spacing: 0px;
-      font-weight: 100;
-      line-height: 75px;
-      font-size: 55px;
-      font-family: "Bebas Neue", cursive; }
-  .tips__parrafo {
-    max-width: 900px;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 5px 100px 5px;
-    letter-spacing: 2px;
-    font-family: "Lato", sans-serif;
-    font-size: x-large;
-    color: #fff; }
-  .tips__videos {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto; }
-    .tips__videos__card {
-      max-width: 650px;
-      height: auto;
-      margin: 0 auto;
-      padding: 5px 15px 20px 15px;
-      margin-bottom: 40px;
-      display: flex;
-      flex-direction: column;
-      border-radius: 5px; }
-      .tips__videos__card__titulo {
-        width: 100%;
-        height: 80px;
-        color: #ffdb82;
-        text-align: center;
-        letter-spacing: 5px;
-        font-weight: 500;
-        font-size: calc(1.5rem + 1vw);
-        font-family: "Bebas Neue", cursive;
-        text-shadow: #0c0c0c 1px 1px 5px; }
-        .tips__videos__card__titulo__special {
-          letter-spacing: 2px; }
-      .tips__videos__card__link {
-        width: 100%;
-        min-height: 350px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-        border-radius: 15px; }
+  background-color: #14274a;
+}
+.tips__titulo {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  max-width: 410px;
+  height: 80px;
+  line-height: 75px;
+  margin: 0 auto;
+  border-radius: 150px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  border: 5px solid white;
+}
+.tips__titulo__container {
+  display: flex;
+  background-color: #fff;
+  width: 95px;
+  height: 75px;
+  position: relative;
+  right: 5px;
+  bottom: 2px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.tips__titulo__container__megafono {
+  width: 50px;
+  height: 45px;
+}
+.tips__titulo__container__megafono img {
+  vertical-align: unset;
+}
+.tips__titulo__texto {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 100;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+.tips__parrafo {
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5px 100px 5px;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #fff;
+}
+.tips__videos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.tips__videos__card {
+  max-width: 650px;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px 15px 20px 15px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.tips__videos__card__titulo {
+  width: 100%;
+  height: 80px;
+  color: #ffdb82;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: calc(1.5rem + 1vw);
+  font-family: "Bebas Neue", cursive;
+  text-shadow: #0c0c0c 1px 1px 5px;
+}
+.tips__videos__card__titulo__special {
+  letter-spacing: 2px;
+}
+.tips__videos__card__link {
+  width: 100%;
+  min-height: 350px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
 
 @media only screen and (max-width: 600px) {
   .tips__titulo {
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+  }
   .tips__parrafo {
     text-align: justify;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+  }
   .tips__titulo__texto {
-    font-size: calc(2.3rem + 1.8vw); }
+    font-size: calc(2.3rem + 1.8vw);
+  }
   .tips__videos__card {
     padding: 25px 0px;
-    border-radius: 0px; }
+    border-radius: 0px;
+  }
   .tips__videos__card__titulo {
-    font-size: calc(1.5rem + 1.5vw); }
+    font-size: calc(1.5rem + 1.5vw);
+  }
   .tips__videos__card__link {
     border-radius: 0%;
     margin-bottom: 10px;
-    min-height: 250px; } }
+    width: 90%;
+    height: 100px;
+  }
+}
 
 .entrevistas {
   width: 100%;
@@ -118,127 +139,146 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px; }
-  .entrevistas__titulo {
-    display: flex;
-    flex-direction: row;
-    min-width: 320px;
-    max-width: 410px;
-    height: 80px;
-    line-height: 75px;
-    margin: 0 auto;
-    border-radius: 150px;
-    justify-content: space-between;
-    margin-bottom: 150px;
-    border: 5px solid #14274a; }
-    .entrevistas__titulo__container {
-      display: flex;
-      background-color: #14274a;
-      width: 95px;
-      height: 75px;
-      position: relative;
-      right: 5px;
-      bottom: 2px;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center; }
-      .entrevistas__titulo__container__microphone {
-        width: 50px;
-        height: 50px; }
-        .entrevistas__titulo__container__microphone img {
-          vertical-align: unset; }
-    .entrevistas__titulo__texto {
-      width: 100%;
-      color: #14274a;
-      text-align: center;
-      letter-spacing: 0px;
-      font-weight: 100;
-      line-height: 75px;
-      font-size: 55px;
-      font-family: "Bebas Neue", cursive; }
-  .entrevistas__parrafo {
-    max-width: 900px;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 5px 100px 5px;
-    letter-spacing: 2px;
-    font-family: "Lato", sans-serif;
-    font-size: x-large;
-    color: #14274a; }
-    .entrevistas__parrafo__redessociales {
-      font-weight: 700;
-      font-size: x-large;
-      text-decoration: none;
-      font-style: italic;
-      color: #00f6da;
-      text-shadow: 2px 2px 1px #083ce7; }
-      .entrevistas__parrafo__redessociales:hover {
-        color: #00f6da;
-        text-shadow: 2px 2px 1px #083ce7; }
-  .entrevistas__videos {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto; }
-    .entrevistas__videos__card {
-      max-width: 600px;
-      height: auto;
-      margin: 0 auto;
-      padding: 30px 25px;
-      margin-bottom: 30px;
-      display: flex;
-      flex-direction: column;
-      background-color: #14274ada;
-      border-radius: 5px; }
-      .entrevistas__videos__card__titulo {
-        width: 100%;
-        padding-bottom: 10px;
-        color: #ffdb82;
-        text-align: start;
-        letter-spacing: 5px;
-        font-weight: 500;
-        font-size: calc(1.5rem + 1vw);
-        font-family: "Bebas Neue", cursive;
-        text-shadow: 2px 2px black; }
-      .entrevistas__videos__card__parrafo {
-        width: 100%;
-        min-height: 220px;
-        max-height: 400px;
-        margin: 0 auto;
-        line-height: 30px;
-        text-align: justify;
-        letter-spacing: 1px;
-        font-family: "Lato", sans-serif;
-        font-size: large;
-        font-weight: 200;
-        color: #fff; }
-      .entrevistas__videos__card__link {
-        width: 100%;
-        min-height: 350px;
-        margin: 0 auto;
-        border-radius: 5px; }
+  padding-bottom: 100px;
+}
+.entrevistas__titulo {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  max-width: 410px;
+  height: 80px;
+  line-height: 75px;
+  margin: 0 auto;
+  border-radius: 150px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  border: 5px solid #14274a;
+}
+.entrevistas__titulo__container {
+  display: flex;
+  background-color: #14274a;
+  width: 95px;
+  height: 75px;
+  position: relative;
+  right: 5px;
+  bottom: 2px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.entrevistas__titulo__container__microphone {
+  width: 50px;
+  height: 50px;
+}
+.entrevistas__titulo__container__microphone img {
+  vertical-align: unset;
+}
+.entrevistas__titulo__texto {
+  width: 100%;
+  color: #14274a;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 100;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+.entrevistas__parrafo {
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5px 100px 5px;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #14274a;
+}
+.entrevistas__parrafo__redessociales {
+  font-weight: 700;
+  font-size: x-large;
+  text-decoration: none;
+  font-style: italic;
+  color: #00f6da;
+  text-shadow: 2px 2px 1px #083ce7;
+}
+.entrevistas__parrafo__redessociales:hover {
+  color: #00f6da;
+  text-shadow: 2px 2px 1px #083ce7;
+}
+.entrevistas__videos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.entrevistas__videos__card {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 25px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #14274ada;
+  border-radius: 5px;
+}
+.entrevistas__videos__card__titulo {
+  width: 100%;
+  padding-bottom: 10px;
+  color: #ffdb82;
+  text-align: start;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: calc(1.5rem + 1vw);
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 2px 2px black;
+}
+.entrevistas__videos__card__parrafo {
+  width: 100%;
+  min-height: 220px;
+  max-height: 400px;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: large;
+  font-weight: 200;
+  color: #fff;
+}
+.entrevistas__videos__card__link {
+  width: 100%;
+  min-height: 350px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
 
 @media only screen and (max-width: 600px) {
   .entrevistas__titulo {
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+  }
   .entrevistas__parrafo {
     text-align: justify;
-    letter-spacing: 0px; }
+    letter-spacing: 0px;
+  }
   .entrevistas__videos__card {
     padding: 25px 0px;
-    border-radius: 0px; }
+    border-radius: 0px;
+  }
   .entrevistas__videos__card__titulo {
-    text-align: center; }
+    text-align: center;
+  }
   .entrevistas__videos__card__parrafo {
     text-align: justify;
     letter-spacing: 0px;
-    padding: 5px; }
+    padding: 5px;
+  }
   .entrevistas__videos__card__link {
     border-radius: 0%;
-    margin-bottom: 10px;
-    min-height: 250px; } }
+  }
+}
 
 .donaciones {
   width: 100%;
@@ -246,153 +286,185 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px; }
-  .donaciones__titulo {
-    display: flex;
-    flex-direction: row;
-    min-width: 320px;
-    max-width: 410px;
-    height: 80px;
-    line-height: 75px;
-    margin: 0 auto;
-    border-radius: 150px;
-    justify-content: space-between;
-    margin-bottom: 150px;
-    border: 5px solid #14274a; }
-    .donaciones__titulo__container {
-      display: flex;
-      background-color: #14274a;
-      width: 95px;
-      height: 75px;
-      position: relative;
-      right: 5px;
-      bottom: 2px;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center; }
-      .donaciones__titulo__container__handpoint {
-        width: 35px;
-        height: 55px; }
-        .donaciones__titulo__container__handpoint img {
-          vertical-align: unset; }
-    .donaciones__titulo__texto {
-      width: 100%;
-      color: #14274a;
-      text-align: center;
-      letter-spacing: 0px;
-      font-weight: 100;
-      line-height: 75px;
-      font-size: 55px;
-      font-family: "Bebas Neue", cursive; }
-  .donaciones__parrafo {
-    max-width: 900px;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 5px 150px 5px;
-    letter-spacing: 2px;
-    font-family: "Lato", sans-serif;
-    font-size: x-large;
-    color: #14274a; }
-  .donaciones__items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 40px; }
-    .donaciones__items :hover {
-      -webkit-animation: jello-horizontal 1.6s both;
-      animation: jello-horizontal 1.6s both; }
+  padding-bottom: 100px;
+}
+.donaciones__titulo {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  max-width: 410px;
+  height: 80px;
+  line-height: 75px;
+  margin: 0 auto;
+  border-radius: 150px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  border: 5px solid #14274a;
+}
+.donaciones__titulo__container {
+  display: flex;
+  background-color: #14274a;
+  width: 95px;
+  height: 75px;
+  position: relative;
+  right: 5px;
+  bottom: 2px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.donaciones__titulo__container__handpoint {
+  width: 35px;
+  height: 55px;
+}
+.donaciones__titulo__container__handpoint img {
+  vertical-align: unset;
+}
+.donaciones__titulo__texto {
+  width: 100%;
+  color: #14274a;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 100;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+.donaciones__parrafo {
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5px 150px 5px;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #14274a;
+}
+.donaciones__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+.donaciones__items :hover {
+  -webkit-animation: jello-horizontal 1.6s both;
+  animation: jello-horizontal 1.6s both;
+}
 
 @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); }
+    transform: scale3d(1, 1, 1);
+  }
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1); }
+    transform: scale3d(1.25, 0.75, 1);
+  }
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1); }
+    transform: scale3d(0.75, 1.25, 1);
+  }
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1); }
+    transform: scale3d(1.15, 0.85, 1);
+  }
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1); }
+    transform: scale3d(0.95, 1.05, 1);
+  }
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1); }
+    transform: scale3d(1.05, 0.95, 1);
+  }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
+    transform: scale3d(1, 1, 1);
+  }
+}
 
 @keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); }
+    transform: scale3d(1, 1, 1);
+  }
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1); }
+    transform: scale3d(1.25, 0.75, 1);
+  }
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1); }
+    transform: scale3d(0.75, 1.25, 1);
+  }
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1); }
+    transform: scale3d(1.15, 0.85, 1);
+  }
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1); }
+    transform: scale3d(0.95, 1.05, 1);
+  }
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1); }
+    transform: scale3d(1.05, 0.95, 1);
+  }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1); } }
-    .donaciones__items__link {
-      width: 200px;
-      height: 200px; }
-      .donaciones__items__link__mp {
-        width: 200px;
-        height: 200px;
-        margin: 0 auto;
-        border: 15px solid #14274a;
-        border-radius: 50%;
-        text-align: center;
-        background-image: url(../../img/mp.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; }
-      .donaciones__items__link__paypal {
-        width: 200px;
-        height: 200px;
-        margin: 0 auto;
-        border: 15px solid #14274a;
-        border-radius: 50%;
-        text-align: center;
-        background-image: url(../../img/ppal.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; }
-      .donaciones__items__link__patreon {
-        width: 200px;
-        height: 200px;
-        margin: 0 auto;
-        border: 15px solid #14274a;
-        border-radius: 50%;
-        text-align: center;
-        background-image: url(../../img/p.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; }
+    transform: scale3d(1, 1, 1);
+  }
+}
+.donaciones__items__link {
+  width: 200px;
+  height: 200px;
+}
+.donaciones__items__link__mp {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 15px solid #14274a;
+  border-radius: 50%;
+  text-align: center;
+  background-image: url(../../img/mp.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.donaciones__items__link__paypal {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 15px solid #14274a;
+  border-radius: 50%;
+  text-align: center;
+  background-image: url(../../img/ppal.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.donaciones__items__link__patreon {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 15px solid #14274a;
+  border-radius: 50%;
+  text-align: center;
+  background-image: url(../../img/p.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 @media only screen and (max-width: 600px) {
   .donaciones__titulo {
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+  }
   .donaciones__parrafo {
     text-align: justify;
     letter-spacing: 0px;
-    padding: 5px 5px 100px 5px; } }
+    padding: 5px 5px 100px 5px;
+  }
+}
 
 .marcas {
   width: 100%;
@@ -401,85 +473,96 @@
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #14274a; }
-  .marcas__titulo {
-    display: flex;
-    flex-direction: row;
-    min-width: 320px;
-    max-width: 410px;
-    height: 80px;
-    line-height: 75px;
-    margin: 0 auto;
-    border-radius: 150px;
-    justify-content: space-between;
-    margin-bottom: 150px;
-    border: 5px solid #fff; }
-    .marcas__titulo__texto {
-      width: 100%;
-      color: #fff;
-      text-align: center;
-      letter-spacing: 0px;
-      font-weight: 100;
-      line-height: 80px;
-      font-size: 55px;
-      font-family: "Bebas Neue", cursive; }
-    .marcas__titulo__handshake {
-      width: 100px;
-      height: 75px;
-      position: relative;
-      right: 2px;
-      bottom: 2px;
-      font-size: 45px;
-      line-height: 75px;
-      text-align: center;
-      color: #14274a;
-      background-color: #fff;
-      border-radius: 50%; }
-  .marcas__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%; }
-    .marcas__container__card {
-      display: flex;
-      flex-direction: column;
-      max-width: 450px;
-      height: auto;
-      margin: 0 auto;
-      padding: 30px 25px;
-      margin-bottom: 30px;
-      background-color: #fff;
-      border-radius: 5px;
-      text-decoration: none; }
-      .marcas__container__card__image {
-        width: 300px;
-        height: 100px;
-        margin: 0 auto;
-        margin-bottom: 40px; }
-      .marcas__container__card__texto1 {
-        color: #14274a;
-        text-align: start;
-        letter-spacing: 1px;
-        font-family: "Lato", sans-serif;
-        font-size: large;
-        margin-bottom: 20px; }
-      .marcas__container__card__texto2 {
-        color: #14274a;
-        text-align: start;
-        letter-spacing: 1px;
-        font-family: "Lato", sans-serif;
-        font-size: large;
-        margin-bottom: 20px; }
-        .marcas__container__card__texto2__porcentaje {
-          font-weight: bold; }
-      .marcas__container__card__codigo {
-        color: #14274a;
-        font-weight: bold;
-        text-align: start;
-        letter-spacing: 1px;
-        font-family: "Lato", sans-serif;
-        font-size: x-large;
-        margin-bottom: 35px; }
+  background-color: #14274a;
+}
+.marcas__titulo {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  max-width: 410px;
+  height: 80px;
+  line-height: 75px;
+  margin: 0 auto;
+  border-radius: 150px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  border: 5px solid #fff;
+}
+.marcas__titulo__texto {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 100;
+  line-height: 80px;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+.marcas__titulo__handshake {
+  width: 100px;
+  height: 75px;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+  font-size: 45px;
+  line-height: 75px;
+  text-align: center;
+  color: #14274a;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.marcas__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.marcas__container__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 25px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.marcas__container__card__image {
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.marcas__container__card__texto1 {
+  color: #14274a;
+  text-align: start;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.marcas__container__card__texto2 {
+  color: #14274a;
+  text-align: start;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.marcas__container__card__texto2__porcentaje {
+  font-weight: bold;
+}
+.marcas__container__card__codigo {
+  color: #14274a;
+  font-weight: bold;
+  text-align: start;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  margin-bottom: 35px;
+}
 
 .unpocomassobremi {
   width: 100%;
@@ -488,75 +571,89 @@
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #14274a; }
-  .unpocomassobremi__titulo {
-    display: flex;
-    flex-direction: row;
-    min-width: 320px;
-    max-width: 410px;
-    height: 80px;
-    line-height: 75px;
-    margin: 0 auto;
-    border-radius: 150px;
-    justify-content: space-between;
-    margin-bottom: 150px;
-    border: 5px solid #fff; }
-    .unpocomassobremi__titulo__texto {
-      width: 100%;
-      color: #fff;
-      text-align: center;
-      letter-spacing: 0px;
-      font-weight: 100;
-      line-height: 80px;
-      font-size: 55px;
-      font-family: "Bebas Neue", cursive; }
-    .unpocomassobremi__titulo__userplus {
-      width: 100px;
-      height: 75px;
-      position: relative;
-      right: 2px;
-      bottom: 2px;
-      font-size: 45px;
-      line-height: 75px;
-      text-align: center;
-      color: #14274a;
-      background-color: #fff;
-      border-radius: 50%; }
-  .unpocomassobremi__parrafo {
-    max-width: 900px;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 5px 150px 5px;
-    letter-spacing: 2px;
-    font-family: "Lato", sans-serif;
-    font-size: x-large;
-    color: #fff; }
-    .unpocomassobremi__parrafo__effect {
-      font-weight: 600;
-      color: #ffdb82; }
-  .unpocomassobremi__imagen {
-    min-width: 325px;
-    max-width: 1500px;
-    height: 300px;
-    margin: 0 auto;
-    background-image: url(../../img/vlogs.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px; }
-    .unpocomassobremi__imagen__click {
-      height: 100%;
-      width: 100%; }
-      .unpocomassobremi__imagen__click img {
-        vertical-align: unset; }
+  background-color: #14274a;
+}
+.unpocomassobremi__titulo {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  max-width: 410px;
+  height: 80px;
+  line-height: 75px;
+  margin: 0 auto;
+  border-radius: 150px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  border: 5px solid #fff;
+}
+.unpocomassobremi__titulo__texto {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 100;
+  line-height: 80px;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+.unpocomassobremi__titulo__userplus {
+  width: 100px;
+  height: 75px;
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+  font-size: 45px;
+  line-height: 75px;
+  text-align: center;
+  color: #14274a;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.unpocomassobremi__parrafo {
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5px 150px 5px;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  color: #fff;
+}
+.unpocomassobremi__parrafo__effect {
+  font-weight: 600;
+  color: #ffdb82;
+}
+.unpocomassobremi__imagen {
+  min-width: 325px;
+  max-width: 1500px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url(../../img/vlogs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+.unpocomassobremi__imagen__click {
+  height: 100%;
+  width: 100%;
+}
+.unpocomassobremi__imagen__click img {
+  vertical-align: unset;
+}
 
 @media only screen and (max-width: 600px) {
   .unpocomassobremi__parrafo {
-    padding: 0 5px 50px 5px; }
+    padding: 0 5px 50px 5px;
+  }
   .unpocomassobremi__titulo__texto {
-    font-size: 50px; } }
+    font-size: 50px;
+  }
+}
 
 @media only screen and (max-width: 700px) {
   .unpocomassobremi__imagen {
     background-image: url(../../img/vlogs2.jpg);
-    background-size: contain; } }
+    background-size: contain;
+  }
+}
