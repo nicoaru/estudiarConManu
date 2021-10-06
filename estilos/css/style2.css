@@ -124,6 +124,7 @@ header {
                 position: absolute;
                 top: 100%;
                 right: 0px;
+                z-index: 2;
                 text-align: end;
             }
             .sections__nav a {
